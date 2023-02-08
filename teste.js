@@ -18,27 +18,30 @@
 //     console.log("Saio tarde.")
 // }
 
-var numero = 5
-var contador = 0
+// var numero = 5
+// var contador = 0
 
-for (let index = 0; index <= numero; index++) {
-   switch (numero % index) {
-        case 0:
-            contador ++
-        break;
+// for (let index = 0; index <= numero; index++) {
+//    switch (numero % index) {
+//         case 0:
+//             contador ++
+//         break;
    
-        default:
-        break;
-    }
-}
+//         default:
+//         break;
+//     }
+// }
 
-switch (contador) {
-    case 2:
-        console.log("o número", numero, "é primo") 
-    break;
+// switch (contador) {
+//     case 2:
+//         console.log("o número", numero, "é primo") 
+//     break;
 
-    default:
-        console.log("o número", numero, "nao é primo")
-    break;
-}
- 
+//     default:
+//         console.log("o número", numero, "nao é primo")
+//     break;
+// }
+
+var hora = 1
+var minuto = 0
+hora > 0 ? minuto = hora * 60 : minuto = 60
