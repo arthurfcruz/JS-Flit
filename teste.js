@@ -20,3 +20,8 @@ function SolicitarDados(nome,senha) {
         return false
     } 
 }
+
+//1.5 - 3
+
+Cadastro()
+console.log(SolicitarDados(nome,senha))
