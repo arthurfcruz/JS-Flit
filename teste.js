@@ -1,34 +1,27 @@
-// var array = [12,6,9,42,11,102,44,25]
-// var soma = 0
+//1.5 - 1
 
-// for (let index = 0; index < array.length; index++) {
-//     soma = soma + array[index]
-//     console.log(soma)
-// }
+var nome = ""
+var senha = ""
 
-// for (let i = 0; i < 90; i++) {
-//     while ((i < 40 || i > 50) && i < 90) {
-//         console.log(i)
-//         i++
-//     }
-// }
-
-var numero = 0
-var contador = 0
-var primo = false
-
-while (primo == false) {
-    for (let index = 0; index <= numero; index++) {
-        if (numero % index == 0) {
-            contador ++
-        }
-    }
-    
-    if (contador == 2) {
-        primo = true
-    }else{
-        contador = 0
-        numero ++
-    }
-    console.log(numero)
+function Cadastro() {
+    var nome = prompt("Digite seu nome")
+    var senha = prompt("Digite sua senha")
 }
+
+//1.5 - 2
+
+function SolicitarDados(nome,senha) {
+    var nome2 = prompt("Digite seu nome")
+    var senha2 = prompt("Digite sua senha")
+
+    if (nome2 == nome && senha2 == senha) {
+        return true
+    }else{
+        return false
+    } 
+}
+
+//1.5 - 3
+
+Cadastro()
+console.log(SolicitarDados(nome,senha))
